@@ -3,7 +3,7 @@ language: python
 python:
 
   - "3.7"
-install: pip install tox-travis numpy pytest-cov codecov sklearn scipy
+install: pip install tox-travis numpy pytest-cov codecov scipy scikit-learn
 
 script:
   tox
